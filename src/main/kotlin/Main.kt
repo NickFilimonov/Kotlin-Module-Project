@@ -1,5 +1,11 @@
+import Archive.ArchivesMenu
+import Notes.Notes
+import java.util.*
+import kotlin.collections.HashMap
+
 fun main() {
-    // ваш код начнется здесь
-    // вы не должны ограничиваться только классом Main и можете создавать свои классы по необходимости
-    println("Привет")
+    val archiveMenu = ArchivesMenu()
+    archiveMenu.interactWithArchiveMenu()
 }
+
+
